@@ -1,0 +1,50 @@
+p {
+  color: black;
+  font-size: 20px;
+}
+body {
+ color: #555;
+ margin: 0;
+}
+
+
+#header {
+  background-color: #1abc9c;
+  height: 150px;
+  line-height: 150px;
+}
+
+#header-title {
+  display: block;
+  float: left;
+
+  font-size: 20px
+  font-weight: bold;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+.container {
+  max-width: 1000px
+  margin: 0 auto;
+}
+
+#header a {
+  color: white;
+  text-decoration: none;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header a:hover {
+  color: #222;
+}
